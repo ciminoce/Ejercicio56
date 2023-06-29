@@ -52,6 +52,7 @@ namespace Ejercicio56.Windows
 
         private void MostrarInfoDatosIngresados()
         {
+            promedioTemperaturas /= cantidadIngresada;
             txtCantTemperaturas.Text = cantidadIngresada.ToString();
             txtSuperiores15.Text= cantidadSuperior15.ToString();
             txtPromedio.Text = promedioTemperaturas.ToString();
